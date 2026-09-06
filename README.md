@@ -1,7 +1,4 @@
 # ECO-WORLD
-EcoWorld is a digital platform designed to help planners, ecologists, and communities protect local environments by centralizing biodiversity tracking, water conservation management, and carbon reduction monitoring
-EcoWorld: Comprehensive Project Document
- Overview of EcoWorld
 EcoWorld is a digital platform designed to help planners, ecologists, and communities protect local environments. Its primary goal is to provide a centralized system for tracking biodiversity health, managing water conservation resources, and measuring progress toward carbon reduction goals within sustainable developments. Key Activities
 The platform supports several operational and analytical activities focused on environmental preservation:
 Biodiversity Tracking: Monitoring local flora and fauna health to ensure native habitats remain undisturbed.
