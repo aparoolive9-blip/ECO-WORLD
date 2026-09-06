@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO-WORLD</title>
+    
+</head>
+<body>
+
+    
+    <header>
+        <div class="container">
+            <h1> ECO-WORLD</h1>
+            <p> Eco-world is a platform for sharing  resources within the campus community to engage us to keep mother earth free from plastic waste.</p>
+            <p>Give items a second life. Reduce waste, share resources, and build a sustainable campus. It starts with us to make a difference!</p>
+        </div>
+    </header>
+
+    <main class="container">
+    
+        <section class="card">
+            <h2>List an Eco-world activity</h2>
+            <form id="itemForm">
+                <div class="form-group">
+                    <label for="itemTitle">Item Name:</label>
+                    
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <select id="category" required>
+                        <option value="">-- Select Category --</option>
+                        <option value="biodiversity tracking">Biodiversity Tracking</option>
+                        <option value="water resource management">Water Resource Management</option>
+                        <option value="carbon accounting">Carbon Accounting</option>
+                        <option value="data management">Data Management</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactInfo">Contact / Location:</label>
+                    
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Item Description:</label>
+                    <textarea id="description" rows="3" required placeholder="Condition, pickup details, etc..."></textarea>
+                </div>
+
+                <button type="submit" class="btn">List Item</button>
+            </form>
+        </section>
+
+        <!-- Marketplace Feed Section -->
+        <section class="card">
+            <h2>Available Items</h2>
+            <div id="itemsContainer">
+                <!-- Dynamically populated listings will appear here -->
+                <p class="empty-state">No items listed yet. Be the first to share something!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    
+
+    
+</body>
+</html>
